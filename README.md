@@ -1,20 +1,46 @@
-# Voice-Assistant
-Tess is a personal voice assistant, completely build on python. It works on python version 3.3+ or above.
+# Tess - Personal Voice Assistant
 
-# Module used
-pyttsx3-for text to speech
-speech Recognition-for speech to text
-pyaudio-for taking audio from the user through microphone
-wikipedia
-datetime
-webbrowser-for performing operations based on search or opening various sites
-os-for performing tasks related to your computer
-wolframalpha-for mathematical calculations, meanings and weather forecast
+Tess is a personal voice assistant built entirely in Python. It is compatible with Python version 3.3 and above, providing an intuitive interface for users to interact through voice commands.
 
-# Uses
-It is a voice assistant, and performs different tasks based on the command given by the user as a voice input.
-It can perform various operations such as tasks based on google search, just you need to say "search for here whatever you want to search".
-It also greets you depending opon the time you run the programe, with random message.It can do several complex mathematical calculations, can give the deatils 
-about the weather forecast and meaning of the words you asked.
-I can remember things like "your name","birthday" etc,. and other sentences, all you need to do is to say "remember my name ,birthday, or anything else you want it to remember"
-You can retrieve your information by saying "what do you know", it will give all the things that you told to remember. 
+## Features
+
+- **Voice Commands:** Perform various tasks by simply speaking commands.
+- **Google Search:** Initiate web searches with phrases like "search for [query]."
+- **Greeting Messages:** Tess greets you based on the time of day with random messages.
+- **Mathematical Calculations:** Execute complex calculations effortlessly.
+- **Weather Forecasts:** Get real-time weather updates and forecasts.
+- **Word Definitions:** Retrieve meanings of words through voice queries.
+- **Memory Functionality:** Tess can remember personal information like your name or birthday. Retrieve stored information with the command "what do you know."
+
+## Modules Used
+
+- **pyttsx3:** Text-to-speech conversion.
+- **speech_recognition:** Speech-to-text functionality.
+- **pyaudio:** Capturing audio input from the microphone.
+- **wikipedia:** Accessing Wikipedia for information.
+- **datetime:** Handling date and time functionalities.
+- **webbrowser:** Performing web searches and opening websites.
+- **os:** Interacting with the operating system.
+- **wolframalpha:** For mathematical calculations, definitions, and weather forecasts.
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/rishraks/Voice-Assistant.git
+   cd Voice-Assistant
+   ```
+2. Install required packages:
+   ```bash
+   pip install pyttsx3 SpeechRecognition pyaudio wikipedia-api wolframalpha
+   ```
+3. Run the application:
+   ```bash
+   python tess.py
+   ```
+
+## Usage  
+  Simply run the application and speak commands to Tess. The assistant will respond based on your input, making it a powerful tool for everyday tasks and inquiries.
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
